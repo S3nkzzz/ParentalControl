@@ -3,13 +3,13 @@ package com.jvgn.parental;
 import com.jvgn.parental.core.SessionTimer;
 import com.jvgn.parental.storage.UsageLog;
 import com.jvgn.parental.ui.FloatingTimerUI;
-
 import javax.swing.*;
 
 /**
  * MainApp — главный класс, запускающий приложение родительского контроля.
  */
 public class MainApp {
+    @SuppressWarnings("UseSpecificCatch")
     public static void main(String[] args) {
         System.out.println("[START] Родительский контроль активирован.");
 
