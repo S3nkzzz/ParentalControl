@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="parental-control:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/parental_control_jar</output-path>
+    <root id="archive" name="parental-control.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="parental-control" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/kwhat/jnativehook/2.2.2/jnativehook-2.2.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
